@@ -1,3 +1,6 @@
+PyGithub 
+python-gitlab
+
 {% if cookiecutter.use_requests == "yes" %}
 requests
 {% endif %}
