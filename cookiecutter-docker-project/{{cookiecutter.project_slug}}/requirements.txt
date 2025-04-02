@@ -1,0 +1,6 @@
+{% if cookiecutter.docker_compose_services == "postgres" or cookiecutter.docker_compose_services == "both" %}
+psycopg2-binary==2.9.6
+{% endif %}
+{% if cookiecutter.docker_compose_services == "redis" or cookiecutter.docker_compose_services == "both" %}
+redis==4.5.4
+{% endif %}
