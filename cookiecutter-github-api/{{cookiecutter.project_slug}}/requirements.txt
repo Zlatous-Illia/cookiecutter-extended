@@ -1,0 +1,9 @@
+{%- if cookiecutter.use_requests == "yes" %}
+requests
+{%- endif %}
+{%- if cookiecutter.use_pandas == "yes" %}
+pandas
+{%- endif %}
+{%- if cookiecutter.use_pytest == "yes" %}
+pytest
+{%- endif %}
